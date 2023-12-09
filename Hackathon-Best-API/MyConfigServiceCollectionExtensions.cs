@@ -15,6 +15,11 @@ namespace Hackathon_Best_API
             services.AddScoped<ILoginService, LoginService>();
             services.AddScoped<IRegisterRepository, RegisterRepository>();
             services.AddScoped<IRegisterService, RegisterService>();
+            services.AddScoped<IGetUserRoleByIdRepository, GetUserRoleByIdRepository>();
+            services.AddScoped<IGetUserRoleByIdService, GetUserRoleByIdService>();
+            services.AddScoped<IUpdateRoleRepository, UpdateRoleRepository>();
+            services.AddScoped<IUpdateRoleService, UpdateRoleService>();
+
             return services;
         }
 
