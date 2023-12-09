@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Ionut\\source\\repos\\Hackathon-Best-API\\Hackathon-Best-API\\Hackathon-Best-API.csproj": {}
+    "C:\\Users\\Ionut\\Documents\\GitHub\\Hackathon-Best-API\\Hackathon-Best-API\\Hackathon-Best-API.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Ionut\\source\\repos\\Hackathon-Best-API\\Hackathon-Best-API\\Hackathon-Best-API.csproj": {
+    "C:\\Users\\Ionut\\Documents\\GitHub\\Hackathon-Best-API\\Hackathon-Best-API\\Hackathon-Best-API.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Ionut\\source\\repos\\Hackathon-Best-API\\Hackathon-Best-API\\Hackathon-Best-API.csproj",
+        "projectUniqueName": "C:\\Users\\Ionut\\Documents\\GitHub\\Hackathon-Best-API\\Hackathon-Best-API\\Hackathon-Best-API.csproj",
         "projectName": "Hackathon-Best-API",
-        "projectPath": "C:\\Users\\Ionut\\source\\repos\\Hackathon-Best-API\\Hackathon-Best-API\\Hackathon-Best-API.csproj",
+        "projectPath": "C:\\Users\\Ionut\\Documents\\GitHub\\Hackathon-Best-API\\Hackathon-Best-API\\Hackathon-Best-API.csproj",
         "packagesPath": "C:\\Users\\Ionut\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Ionut\\source\\repos\\Hackathon-Best-API\\Hackathon-Best-API\\obj\\",
+        "outputPath": "C:\\Users\\Ionut\\Documents\\GitHub\\Hackathon-Best-API\\Hackathon-Best-API\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

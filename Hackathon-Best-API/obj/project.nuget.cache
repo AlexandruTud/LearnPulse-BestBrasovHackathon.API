@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "CSnDQ87+nc+h+SCJul/xKJRVjchWvZLAxi+P6pKW+oYV1/1Yp5j1rHFmvyxkpCQxIRcTZ+vMAVYI8/Vdah03BQ==",
+  "dgSpecHash": "yULwc5CPcfUJbLcAlasVAHBoiKpOJHwJr5kP/QyNFZlTNikqel++wcLWaqvK7SRso8lYbwUD6axHt/HAPV0q+w==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Ionut\\source\\repos\\Hackathon-Best-API\\Hackathon-Best-API\\Hackathon-Best-API.csproj",
+  "projectFilePath": "C:\\Users\\Ionut\\Documents\\GitHub\\Hackathon-Best-API\\Hackathon-Best-API\\Hackathon-Best-API.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Ionut\\.nuget\\packages\\microsoft.extensions.apidescription.server\\6.0.5\\microsoft.extensions.apidescription.server.6.0.5.nupkg.sha512",
     "C:\\Users\\Ionut\\.nuget\\packages\\microsoft.openapi\\1.2.3\\microsoft.openapi.1.2.3.nupkg.sha512",
