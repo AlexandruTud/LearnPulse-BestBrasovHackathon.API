@@ -9,7 +9,7 @@
         public DateOnly PostDate { get; set; }
         public int IdUser { get; set; }
         public string Link { get; set; }
-        public string CouseLanguage { get; set; }
+        public string CourseLanguage { get; set; }
         public string Difficulty { get; set; }
         public int Points { get; set; }
         public string ImageURL { get; set; }
