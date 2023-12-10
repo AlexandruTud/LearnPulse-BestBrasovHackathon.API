@@ -38,10 +38,10 @@ namespace Hackathon_Best_API.Repositories
             parameters.Add("@Duration", coursesRequest.Duration);
             parameters.Add("@Description", coursesRequest.Description);
             parameters.Add("@CategoryName", coursesRequest.CategoryName);
-            parameters.Add("@PostDate", coursesRequest.PostDate);
+            parameters.Add("@PostDate", coursesRequest.PostDate = DateTime.Now);
             parameters.Add("@IdUser", coursesRequest.IdUser);
             parameters.Add("@Link", coursesRequest.Link);
-            parameters.Add("@CouseLanguage", coursesRequest.CouseLanguage);
+            parameters.Add("@CourseLanguage", coursesRequest.CourseLanguage);
             parameters.Add("@Difficulty", coursesRequest.Difficulty);
             parameters.Add("@Points", coursesRequest.Points);
             parameters.Add("@ImageURL", coursesRequest.ImageURL);
