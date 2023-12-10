@@ -1,0 +1,20 @@
+2023-12-10 07:20:27.363 +02:00  INF  User profile is available. Using 'C:\Users\Ionut\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2023-12-10 07:20:27.645 +02:00  INF  Application started. Press Ctrl+C to shut down.
+2023-12-10 07:20:27.646 +02:00  INF  Hosting environment: Development
+2023-12-10 07:20:27.646 +02:00  INF  Content root path: C:\Users\Ionut\Documents\GitHub\Hackathon-Best-API\Hackathon-Best-API
+2023-12-10 07:20:27.750 +02:00  INF  Request starting HTTP/2 GET https://localhost:44329/swagger/index.html - null null
+2023-12-10 07:20:28.144 +02:00  INF  Request starting HTTP/2 GET https://localhost:44329/_framework/aspnetcore-browser-refresh.js - null null
+2023-12-10 07:20:28.144 +02:00  INF  Request starting HTTP/2 GET https://localhost:44329/_vs/browserLink - null null
+2023-12-10 07:20:28.145 +02:00  INF  Request finished HTTP/2 GET https://localhost:44329/swagger/index.html - 200 null text/html;charset=utf-8 391.5847ms
+2023-12-10 07:20:28.167 +02:00  INF  Request finished HTTP/2 GET https://localhost:44329/_framework/aspnetcore-browser-refresh.js - 200 13772 application/javascript; charset=utf-8 13.5005ms
+2023-12-10 07:20:28.175 +02:00  INF  Request finished HTTP/2 GET https://localhost:44329/_vs/browserLink - 200 null text/javascript; charset=UTF-8 30.7672ms
+2023-12-10 07:20:28.238 +02:00  INF  Request starting HTTP/2 GET https://localhost:44329/swagger/v1/swagger.json - null null
+2023-12-10 07:20:28.371 +02:00  INF  Request finished HTTP/2 GET https://localhost:44329/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 132.5086ms
+2023-12-10 07:22:59.558 +02:00  INF  Request starting HTTP/2 GET https://localhost:44329/api/Codes/GetCodeByCourseId?IdCourse=2 - null null
+2023-12-10 07:22:59.577 +02:00  INF  Executing endpoint 'Hackathon_Best_API.Controllers.CodesController.GetCodeByCourseIdAsync (Hackathon-Best-API)'
+2023-12-10 07:22:59.611 +02:00  INF  Route matched with {action = "GetCodeByCourseId", controller = "Codes"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetCodeByCourseIdAsync(Int32) on controller Hackathon_Best_API.Controllers.CodesController (Hackathon-Best-API).
+2023-12-10 07:23:01.107 +02:00  INF  Course Code :9525
+2023-12-10 07:23:01.114 +02:00  INF  Executing OkObjectResult, writing value of type 'System.String'.
+2023-12-10 07:23:01.118 +02:00  INF  Executed action Hackathon_Best_API.Controllers.CodesController.GetCodeByCourseIdAsync (Hackathon-Best-API) in 1504.0679ms
+2023-12-10 07:23:01.119 +02:00  INF  Executed endpoint 'Hackathon_Best_API.Controllers.CodesController.GetCodeByCourseIdAsync (Hackathon-Best-API)'
+2023-12-10 07:23:01.119 +02:00  INF  Request finished HTTP/2 GET https://localhost:44329/api/Codes/GetCodeByCourseId?IdCourse=2 - 200 null text/plain; charset=utf-8 1563.6812ms

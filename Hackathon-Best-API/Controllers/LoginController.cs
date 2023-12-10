@@ -1,6 +1,7 @@
 ﻿using Hackathon_Best_API.DTOs;
 using Hackathon_Best_API.Interfaces;
 using Microsoft.AspNetCore.Mvc;
+using Serilog;
 
 namespace Hackathon_Best_API.Controllers
 {
@@ -22,6 +23,7 @@ namespace Hackathon_Best_API.Controllers
             {
                 return Unauthorized();
             }
+            Log.Information("User Logged In" + result);
             return Ok(result);
         }
     }

@@ -26,6 +26,7 @@ namespace Hackathon_Best_API
             services.AddScoped<ICodesRepository,CodesRepository>();
             services.AddScoped<IAddCourseReviewRepository,AddCourseReviewRepository>();
             services.AddScoped<IAddUserPointsRepository,AddUserPointsRepository>();
+            services.AddScoped<IGetUserByIdRepository, GetUserByIdRepository>();
             return services;
         }
 

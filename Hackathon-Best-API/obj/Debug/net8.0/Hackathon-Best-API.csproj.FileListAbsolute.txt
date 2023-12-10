@@ -49,3 +49,13 @@ C:\Users\Ionut\Documents\GitHub\Hackathon-Best-API\Hackathon-Best-API\bin\Debug\
 C:\Users\Ionut\Documents\GitHub\Hackathon-Best-API\Hackathon-Best-API\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
 C:\Users\Ionut\Documents\GitHub\Hackathon-Best-API\Hackathon-Best-API\bin\Debug\net8.0\Microsoft.IdentityModel.Tokens.dll
 C:\Users\Ionut\Documents\GitHub\Hackathon-Best-API\Hackathon-Best-API\bin\Debug\net8.0\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\Ionut\Documents\GitHub\Hackathon-Best-API\Hackathon-Best-API\bin\Debug\net8.0\Microsoft.Extensions.DependencyModel.dll
+C:\Users\Ionut\Documents\GitHub\Hackathon-Best-API\Hackathon-Best-API\bin\Debug\net8.0\Serilog.dll
+C:\Users\Ionut\Documents\GitHub\Hackathon-Best-API\Hackathon-Best-API\bin\Debug\net8.0\Serilog.AspNetCore.dll
+C:\Users\Ionut\Documents\GitHub\Hackathon-Best-API\Hackathon-Best-API\bin\Debug\net8.0\Serilog.Extensions.Hosting.dll
+C:\Users\Ionut\Documents\GitHub\Hackathon-Best-API\Hackathon-Best-API\bin\Debug\net8.0\Serilog.Extensions.Logging.dll
+C:\Users\Ionut\Documents\GitHub\Hackathon-Best-API\Hackathon-Best-API\bin\Debug\net8.0\Serilog.Formatting.Compact.dll
+C:\Users\Ionut\Documents\GitHub\Hackathon-Best-API\Hackathon-Best-API\bin\Debug\net8.0\Serilog.Settings.Configuration.dll
+C:\Users\Ionut\Documents\GitHub\Hackathon-Best-API\Hackathon-Best-API\bin\Debug\net8.0\Serilog.Sinks.Console.dll
+C:\Users\Ionut\Documents\GitHub\Hackathon-Best-API\Hackathon-Best-API\bin\Debug\net8.0\Serilog.Sinks.Debug.dll
+C:\Users\Ionut\Documents\GitHub\Hackathon-Best-API\Hackathon-Best-API\bin\Debug\net8.0\Serilog.Sinks.File.dll
