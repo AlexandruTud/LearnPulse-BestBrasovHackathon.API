@@ -7,7 +7,6 @@
         public int Duration { get; set; }
         public string Description { get; set; }
         public string CategoryName { get; set; }
-        public DateTime PostDate { get; set; }
         public int IdUser { get; set; }
         public string Link { get; set; }
         public string CourseLanguage { get; set; }
