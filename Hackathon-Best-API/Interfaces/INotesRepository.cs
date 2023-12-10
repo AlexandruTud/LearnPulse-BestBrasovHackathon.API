@@ -10,5 +10,6 @@ namespace Hackathon_Best_API.Interfaces
         Task<IEnumerable<Notes>> GetNotesAsync(int idUser);
         Task<int> InsertNoteAsync(NoteDTO noteDTO);
         Task<int> UpdateNoteAsync(NotesRequest notesRequest);
+        Task<int> DeleteNoteAsync(int IdNote);
     }
 }

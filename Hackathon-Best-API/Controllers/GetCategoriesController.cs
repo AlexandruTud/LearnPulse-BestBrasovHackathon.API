@@ -18,5 +18,11 @@ namespace Hackathon_Best_API.Controllers
             var result = await _getRandomCategoriesRepository.GetCategoriesAsync();
             return Ok(result);
         }
+        [HttpGet("all")]
+        public async Task<IActionResult> GetAllCategoriesAsync()
+        {
+            var result = await _getRandomCategoriesRepository.GetAllCategoriesAsync();
+            return Ok(result);
+        }
     }
 }

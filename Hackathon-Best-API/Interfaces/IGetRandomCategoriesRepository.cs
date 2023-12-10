@@ -6,5 +6,6 @@ namespace Hackathon_Best_API.Interfaces
 
     {
         Task<IEnumerable<CategoryDTO>> GetCategoriesAsync();
+        Task<IEnumerable<CategoryDTO>> GetAllCategoriesAsync();
     }
 }
