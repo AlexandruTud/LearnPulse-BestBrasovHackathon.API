@@ -1,6 +1,7 @@
 ﻿using Hackathon_Best_API.Interfaces;
 using Hackathon_Best_API.Requests;
 using Microsoft.AspNetCore.Mvc;
+using Serilog;
 
 namespace Hackathon_Best_API.Controllers
 {
@@ -18,6 +19,7 @@ namespace Hackathon_Best_API.Controllers
         public async Task<IActionResult> UpdateRole([FromBody] UpdateRoleRequest request)
         {
             var response = await _updateRoleService.ChangeRolesAsync(request);
+            Log.Information("Role :" + request);    
             if (response == false)
             {
                 return BadRequest("Error");
