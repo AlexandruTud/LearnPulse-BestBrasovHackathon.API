@@ -2,7 +2,6 @@
 {
     public class CoursesRequest
     {
-        public string IdCourse { get; set; }
         public string CourseTitle { get; set; }
         public int Duration { get; set; }
         public string Description { get; set; }
