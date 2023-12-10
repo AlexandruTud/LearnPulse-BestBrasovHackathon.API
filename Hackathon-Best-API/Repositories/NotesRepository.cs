@@ -29,7 +29,7 @@ namespace Hackathon_Best_API.Repositories
         public async Task<int> InsertNoteAsync(NoteDTO noteDTO)
         {
             var parameters = new DynamicParameters();
-            parameters.Add("@IdUser", noteDTO.IdUser);
+            parameters.Add("@UserId", noteDTO.IdUser);
             parameters.Add("@NoteTitle", noteDTO.NoteTitle);
             parameters.Add("@NoteText", noteDTO.NoteText);
             parameters.Add("@Success", dbType: DbType.Int32, direction: ParameterDirection.Output);
@@ -43,7 +43,7 @@ namespace Hackathon_Best_API.Repositories
         public async Task<int> UpdateNoteAsync(NotesRequest notesRequest)
         {
             var parameters = new DynamicParameters();
-            parameters.Add("@IdNote", notesRequest.IdNote);
+            parameters.Add("@NoteId", notesRequest.IdNote);
             parameters.Add("@NewNoteTitle", notesRequest.NewNoteTitle);
             parameters.Add("@NewNoteText", notesRequest.NewNoteText);
             parameters.Add("@Success", dbType: DbType.Int32, direction: ParameterDirection.Output);
@@ -54,6 +54,18 @@ namespace Hackathon_Best_API.Repositories
                 return success;
             }
 
+        }
+        public async Task<int> DeleteNoteAsync(int IdNote)
+        {
+            var parameters = new DynamicParameters();
+            parameters.Add("@IdNote", IdNote);
+            parameters.Add("@Success", dbType: DbType.Int32, direction: ParameterDirection.Output);
+            using (var connection = _dbConnectionFactory.ConnectToDataBase())
+            {
+                await connection.ExecuteAsync("DeleteNote", parameters, commandType: System.Data.CommandType.StoredProcedure);
+                int success = parameters.Get<int>("Success");
+                return success;
+            }
         }
     }
 }

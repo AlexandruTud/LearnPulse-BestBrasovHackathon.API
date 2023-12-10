@@ -22,6 +22,7 @@ namespace Hackathon_Best_API
             services.AddScoped<IEmailService, EmailService>();
             services.AddScoped<IGetRandomCategoriesRepository, GetRandomCategoriesRepository>();
             services.AddScoped<INotesRepository,NotesRepository>();
+            services.AddScoped<ICoursesRepository,CoursesRepository>();
             return services;
         }
 

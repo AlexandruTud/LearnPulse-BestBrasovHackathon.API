@@ -21,5 +21,14 @@ namespace Hackathon_Best_API.Repositories
                 return result;
             }
         }
+        public async Task<IEnumerable<CategoryDTO>> GetAllCategoriesAsync()
+        {
+            using (var connection = _dbConnectionFactory.ConnectToDataBase())
+            {
+
+                var result = await connection.QueryAsync<CategoryDTO>("GetAllCategories", commandType: CommandType.StoredProcedure);
+                return result;
+            }
+        }
     }
 }
